@@ -510,6 +510,7 @@ export type GeneratorOperation = {
 };
 
 export type GeneratorVerbOptions = {
+  route: string;
   verb: Verbs;
   summary?: string;
   doc: string;

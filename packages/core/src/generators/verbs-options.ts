@@ -167,6 +167,7 @@ const generateVerbOptions = async ({
   const doc = jsDoc({ description, deprecated, summary });
 
   const verbOption: GeneratorVerbOptions = {
+    route,
     verb: verb as Verbs,
     tags,
     summary: operation.summary,
